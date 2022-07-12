@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<style>
+.container {
+  position: relative;
+  width:100%;
+}
+
+.image {
+  display: block;
+  width:100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:20px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F9CF00;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:#16100E ;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color:#043C77;color:#ffffff">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0)"
+    onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="pisica_acasa.html" class="w3-bar-item w3-button w3-padding-large"style="background-color:#F9CF00;color:#16100E">Acasă</a>
+    <a href="pisica_anatomie.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Anatomie</a>
+    <a href="pisica_caracteristici.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Caracteristici</a>
+    <a href="pisica_simturi.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Simțuri</a>
+    <a href="pisica_comportament.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Comportament</a>
+  </div>
+
+<!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+<span class="w3-xxlarge w3-right">onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<!-- Header -->
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1 style="color:white"><b>RASE DE PISICI</b></h1>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <div class="container"><img src="abisiniana.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Abisiniană</div></div></div>
+    <div class="container"><img src="albastru de rusia.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Albastru de Rusia</div></div></div>
+    <div class="container"><img src="american bobtail.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">American Bobtail</div></div></div>
+    <div class="container"><img src="american curl.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">American Curl</div></div></div>
+    <div class="container"><img src="birmaneza.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Birmaneză</div></div></div>
+    <div class="container"><img src="bobtail japonez.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Bobtail Japonez</div></div></div>
+  </div>
+
+  <div class="w3-third">
+    <div class="container"><img src="british shorthair.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">British Shorthair</div></div></div>
+    <div class="container"><img src="burmeza.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Burmeză</div></div></div>
+    <div class="container"><img src="chartreux.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Chartreux</div></div></div>
+    <div class="container"><img src="devon rex.jpeg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Devon Rex</div></div></div>
+    <div class="container"><img src="mau egiptean.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Mau Egiptean</div></div></div>
+    <div class="container"><img src="pisica europeana.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Pisică europeană</div></div></div>
+  </div>
+
+  <div class="w3-third">
+    <div class="container"><img src="exotic shorthair.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Exotic Shorthair</div></div></div>
+    <div class="container"><img src="havana brown.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Havana Brown</div></div></div>
+    <div class="container"><img src="korat.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Korat</div></div></div>
+    <div class="container"><img src="laperm.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Laperm</div></div></div>
+    <div class="container"><img src="maine coon.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Maine Coon</div></div></div>
+    <div class="container"><img src="manx.jpg" style="width:100%;padding:20px;"><div class="overlay"><div class="text">Manx</div></div></div>
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<body style="background-color:#5C9779;">
+</html>
